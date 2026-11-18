@@ -63,7 +63,7 @@ Tienda online full-stack desarrollada con PHP y el framework Laravel, diseñada 
 
 Estado del proyecto: Funcional en entorno de desarrollo local (listo para despliegue en producción).
 
-✨ Funcionalidades Principales
+ Funcionalidades Principales
 
 Vista de Cliente (Tienda)
 
