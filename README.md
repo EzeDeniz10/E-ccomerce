@@ -57,3 +57,80 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Plataforma E-Commerce Web
+
+Tienda online full-stack desarrollada con PHP y el framework Laravel, diseñada para ofrecer una experiencia de compra fluida para los usuarios y un panel administrativo completo para la gestión de inventario, categorías y pedidos.
+
+Estado del proyecto: Funcional en entorno de desarrollo local (listo para despliegue en producción).
+
+✨ Funcionalidades Principales
+
+Vista de Cliente (Tienda)
+
+Catálogo de Productos: Navegación por categorías, búsqueda y filtrado de artículos con detalle de precios y stock disponible.
+
+Carrito de Compras: Agregado, actualización de cantidades y eliminación de productos en tiempo real con cálculo automático de subtotales.
+
+Gestión de Usuarios: Registro, inicio de sesión y autenticación segura de clientes.
+
+Proceso de Checkout: Generación de órdenes de compra con resumen detallado del pedido.
+
+Panel de Administración (Backoffice)
+
+Gestión de Productos (CRUD): Creación, edición y desactivación de productos con carga de imágenes y control de stock.
+
+Gestión de Categorías: Organización jerárquica del catálogo.
+
+Control de Pedidos: Visualización de órdenes recibidas y actualización de estados de envío/entrega.
+
+Stack Tecnológico
+
+Backend: PHP, Laravel (Arquitectura MVC, Eloquent ORM, Migraciones y Seeders)
+
+Frontend: Blade Templates, HTML5, CSS3, JavaScript
+
+Base de Datos: MySQL
+
+Herramientas: Composer, Git & GitHub
+
+Instalación y Ejecución Local
+
+Para levantar el proyecto en tu entorno local, seguí estos pasos:
+
+Clonar el repositorio:
+
+git clone https://github.com/EzeDeniz10/E-ccomerce
+
+
+Instalar dependencias de PHP:
+
+composer install
+
+
+Configurar variables de entorno:
+Copiá el archivo de ejemplo y generá la clave de la aplicación:
+
+cp .env.example .env
+php artisan key:generate
+
+
+Configurar la base de datos:
+Editá el archivo .env con tus credenciales locales de MySQL (DB_DATABASE, DB_USERNAME, DB_PASSWORD) y ejecutá las migraciones:
+
+php artisan migrate --seed
+
+
+Iniciar el servidor de desarrollo:
+
+php artisan serve
+
+
+Accedé desde el navegador a http://127.0.0.1:8000.
+
+Autor
+
+Ezequiel Deniz — Desarrollador de Software
+
+Email: Ezequieldeniz10@gmail.com
+
+Capitán Bermúdez / Rosario, Santa Fe, Argentina
